@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<style>
+
+A {
+	text-decoration: none;
+	color: #000000;
+}
+
+/* Borders and Fonts */
+
+.options {
+	background-color: #fcfcfc;
+	border-style: hidden;
+	border-radius: 50px;
+	padding: 5px 40px 40px 40px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-family: Trebuchet MS;
+	font-size: 20px;
+	width: 80%;
+	margin: auto;
+	text-align: justify;
+}
+.intro {
+	background-color: #fcfcfc;
+	border-style: hidden;
+	border-radius: 50px;
+	padding: 5px 40px 40px 40px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-family: Trebuchet MS;
+	font-size: 20px;
+	width: 80%;
+	margin: auto;
+	text-align: justify;
+}
+
+.rules {
+	background-color: #fcfcfc;
+	border-style: hidden;
+	border-radius: 50px;
+	padding: 5px 40px 40px 40px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-family: Trebuchet MS;
+	font-size: 20px;
+	width: 80%;
+	margin: auto;
+	text-align: justify;
+}
+
+.roles {
+	background-color: #fcfcfc;
+	border-style: hidden;
+	border-radius: 50px;
+	padding: 5px 40px 40px 40px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-family: Trebuchet MS;
+	font-size: 20px;
+	width: 80%;
+	margin: auto;
+	text-align: justify;
+}
+
+.warns {
+	background-color: #fcfcfc;
+	border-style: hidden;
+	border-radius: 50px;
+	padding: 5px 40px 40px 40px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-family: Trebuchet MS;
+	font-size: 20px;
+	width: 80%;
+	margin: auto;
+	text-align: justify;
+}
+
+.faq {
+	background-color: #fcfcfc;
+	border-style: hidden;
+	border-radius: 50px;
+	padding: 5px 40px 40px 40px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-family: Trebuchet MS;
+	font-size: 20px;
+	width: 80%;
+	margin: auto;
+	text-align: justify;
+}
+
+.links {
+	background-color: #fcfcfc;
+	border-style: hidden;
+	border-radius: 50px;
+	padding: 5px 40px 40px 40px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-family: Trebuchet MS;
+	font-size: 20px;
+	width: 80%;
+	margin: auto;
+	text-align: justify;
+}
+
+.more_info {
+	background-color: #fcfcfc;
+	border-style: hidden;
+	border-radius: 50px;
+	padding: 5px 40px 40px 40px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-family: Trebuchet MS;
+	font-size: 20px;
+	width: 80%;
+	margin: auto;
+	text-align: justify;
+}
+
+/* Introduction */
+
+.intro_1 {
+	border-style: hidden;
+	border-radius: 50px;
+	padding: 5px 40px 40px 40px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-family: Trebuchet MS;
+	font-size: 20px;
+	width: 90%;
+	margin: auto;
+	text-align: center;
+}
+
+.intro_2 {
+	border-style: hidden;
+	border-radius: 50px;
+	padding: 5px 40px 40px 40px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-family: Trebuchet MS;
+	font-size: 20px;
+	width: 90%;
+	margin: auto;
+	text-align: center;
+}
+
+.intro_3 {
+	border-style: hidden;
+	border-radius: 50px;
+	padding: 5px 40px 40px 40px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-family: Trebuchet MS;
+	font-size: 20px;
+	width: 90%;
+	margin: auto;
+	text-align: center;
+}
+
+.intro_4 {
+	border-style: hidden;
+	border-radius: 50px;
+	padding: 5px 40px 40px 40px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-family: Trebuchet MS;
+	font-size: 20px;
+	width: 90%;
+	margin: auto;
+	text-align: center;
+}
+
+.intro_5 {
+	border-style: hidden;
+	border-radius: 50px;
+	padding: 5px 40px 40px 40px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-family: Trebuchet MS;
+	font-size: 20px;
+	width: 90%;
+	margin: auto;
+	text-align: center;
+}
+
+/* Options */
+
+.oo1 {
+	border-style: hidden;
+	border-radius: 50px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 80%;
+	height: 60px;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.oo1:hover, .oo1:active {
+	background-color: #ededed;
+}
+
+.oo2 {
+	border-style: hidden;
+	border-radius: 50px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 80%;
+	height: 60px;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.oo2:hover, .oo2:active {
+	background-color: #ededed;
+}
+
+.oo3 {
+	border-style: hidden;
+	border-radius: 50px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 80%;
+	height: 60px;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.oo3:hover, .oo3:active {
+	background-color: #ededed;
+}
+
+.oo4 {
+	border-style: hidden;
+	border-radius: 50px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 80%;
+	height: 60px;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.oo4:hover, .oo4:active {
+	background-color: #ededed;
+}
+
+.oo5 {
+	border-style: hidden;
+	border-radius: 50px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 80%;
+	height: 60px;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.oo5:hover, .oo5:active {
+	background-color: #ededed;
+}
+
+.oo6 {
+	border-style: hidden;
+	border-radius: 50px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 80%;
+	height: 60px;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.oo6:hover, .oo6:active {
+	background-color: #ededed;
+}
+
+.oo7 {
+	border-style: hidden;
+	border-radius: 50px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 80%;
+	height: 60px;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.oo7:hover, .oo7:active {
+	background-color: #ededed;
+}
+
+.opti {
+	border-style: hidden;
+	border-radius: 50px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 80%;
+	height: 60px;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.opti:hover, .opti:active {
+	background-color: #ededed;
+}
+
+</style>
+<title>[Official] Earthum GD's Server</title>
+</head>
+<body>
+
+<br><br>
+<br><br>
+
+<div class="options" id="option">
+	<br><br>
+	<center>
+		<div class="oo6">
+			<a href="#o6">Introduction</a>
+		</div>
+		<br><br>
+		<div class="oo1">
+			<a href="#o1">Rules</a>
+		</div>
+		<br><br>
+		<div class="oo2">
+			<a href="#o2">Roles</a>
+		</div>
+		<br><br>
+		<div class="oo3">
+			<a href="#o3">Warning Regulations</a>
+		</div>
+		<br><br>
+		<div class="oo4">
+			<a href="#o4">FAQ (Frequently Asked Questions)</a>
+		</div>
+		<br><br>
+		<div class="oo5">
+			<a href="#o5">Social Links</a>
+		</div>
+		<br><br>
+		<div class="oo7">
+			<a href="#o7">More Info</a>
+		</div>
+	</center>
+	<br>
+</div>
+
+<br><br>
+<br><br>
+
+<div class="intro" id="o6">
+	<center>
+		<h1>[Official] Earthum GD's Server</h1>
+		<img src="https://cdn.discordapp.com/attachments/551000924575760387/579603438879375360/5X93g2_-_400x400.png">
+	</center>
+	<p>Hello and  welcome to Earthum GD's Server. I hope you'll have a good time in this server. 
+	   This server was created on March 10, 2019. I hope that you will have a great time in this
+	   server. This server has the following:</p>
+	<center>
+		<div class="intro_1">
+			<p><b>Interesting channels</b></p>
+			<p>There are a variety of channels that you can choose from.</p>
+			<img src="https://cdn.discordapp.com/attachments/551000924575760387/579530879312068638/unknown.png" style="width:100%;height:100%;border-radius:20px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+		</div>
+		<br><br>
+		<div class="intro_2">
+			<p><b>Bot commands</b></p>
+			<p>There are interesting bots that I have addded. Make sure to check the prefixes for each bot at the start of their names.</p>
+			<img src="https://cdn.discordapp.com/attachments/551000924575760387/579531652024238081/unknown.png" style="width:100%;height:100%;border-radius:20px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+		</div>
+		<br><br>
+		<div class="intro_3">
+			<p><b>Level requests</b></p>
+			<p>You can request your level/s. Make sure to read the rules before requesting your level/s.</p>
+			<img src="https://cdn.discordapp.com/attachments/551000924575760387/579532022028959764/unknown.png" style="width:100%;height:100%;border-radius:20px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+		</div>
+		<br><br>
+		<div class="intro_4">
+			<p><b>Assignable roles</b></p>
+			<p>You can assign roles that you can choose from.</p>
+			<img src="https://cdn.discordapp.com/attachments/551000924575760387/579532232197144626/unknown.png" style="width:100%;height:100%;border-radius:20px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+		</div>
+		<br><br>
+		<div class="intro_5">
+			<p><b>GD related stuff</b></p>
+			<p>You can get to see new rated levels, new daily levels, new weekly demons, and moderators who were added by RobTop and demoted.</p>
+			<img src="https://cdn.discordapp.com/attachments/551000924575760387/579532856754176012/unknown.png" style="width:100%;height:100%;border-radius:20px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+		</div>
+	</center>
+	<br><br>
+	<center><div class="opti">
+		<a href="#option">Back to Options</a>
+	</center></div>
+</div>
+
+<br><br>
+<br><br>
+
+<div class="rules" id="o1">
+	<center><h1>Rules</h1></center>
+	<p>Hello again and welcome to Earthum GD’s Server. There are rules and regulations that needs to be strictly implemented. All of the rules that will 
+	   be stated below will be applied to everyone, even staff members. Please take your time to read all of the rules about this server.</p>
+	<dl>
+		<dt><b>Rule 1</b></dt>
+		<dd>You can only do chatting or talking or anything off-topic at the chatting channels category. No other channels.</dd>
+		<br>
+		<dt><b>Rule 2</b></dt>
+		<dd>Jokes and minimal swearing are allowed. But too much swearing and offensive jokes are not allowed.</dd>
+		<br>
+		<dt><b>Rule 3</b></dt>
+		<dd>NSFW content is not allowed in this server.</dd>
+		<br>
+		<dt><b>Rule 4</b></dt>
+		<dd>Racist and sexist words are forbidden.</dd>
+		<br>
+		<dt><b>Rule 5</b></dt>
+		<dd>Impersonating people (such as famous people) are not allowed, unless you provide proof that you really are you.</dd>
+		<br>
+		<dt><b>Rule 6</b></dt>
+		<dd>Spamming is not allowed in the server.<br>
+		    <b>&#8658;</b> If you have more than 3 emotes in your message (either 1 or consecutive), it is considered as spam.<br>
+			<b>&#8658;</b> Spamming GIF emotes is also prohibited as it makes lag to phone users.<br>
+			<b>&#8658;</b> If you send more than 3 messages under 10 seconds, that is considered at multiple message spam.<br>
+			<b>&#8658;</b> Only spam in #spam-chat.</dd>
+		<br>
+		<dt><b>Rule 7</b></dt>
+		<dd>Saying fake news is prohibited. We don’t want the members to think that the news is real.</dd>
+		<br>
+		<dt><b>Rule 8</b></dt>
+		<dd>Respect the privacy of the members. Don’t leak any personal information about them. It sometimes makes the person feel insecure.</dd>
+		<br>
+		<dt><b>Rule 9</b></dt>
+		<dd>Raiding the server is not allowed and should be reported to the staff or the owner immediately by DM or tagging me.</dd>
+		<br>
+		<dt><b>Rule 10</b></dt>
+		<dd>Do not tag or DM any staff member or the owner if it is not important.</dd>
+		<br>
+		<dt><b>Rule 11</b></dt>
+		<dd>The @everyone tag is not allowed in the server.</dd>
+		<br>
+		<dt><b>Rule 12</b></dt>
+		<dd>Your profile picture should not have any NSFW, malicious, or illegal content and your nickname should not have any words that are racist or sexist.</dd>
+		<br>
+		<dt><b>Rule 13</b></dt>
+		<dd>Alternate accounts are prohibited in the server unless you provide proof the you are having problems with your main account.</dd>
+		<br>
+		<dt><b>Rule 14</b></dt>
+		<dd>DM advertising your discord channel or YouTube channel or any social media apps you have/use is not allowed. I will just ignore it.</dd>
+		<br>
+		<dt><b>Rule 15</b></dt>
+		<dd>When you suggest something to improve the server, don’t suggest anything that is not useful to the server. Ask someone if the suggestion is useful enough.</dd>
+		<br>
+		<dt><b>Rule 16</b></dt>
+		<dd>The channels have a purpose. Don’t misuse it.</dd>
+		<br>
+		<dt><b>Rule 17</b></dt>
+		<dd>Make sure you read every channel topic in every channel.</dd>
+		<br>
+		<dt><b>Rule 18</b></dt>
+		<dd>Please read the rules for level requests, reporting, and even for staff members. I made those specifically for theirselves.</dd>
+		<br>
+		<dt><b>Rule 19</b></dt>
+		<dd>Please read the Discord Terms and Guidelines. If you fail to follow the Discord Terms and Guidelines, you will be punished depending on the severity.
+		    <br><br>
+			Here are the links to the Discord Terms and Guidelines:
+			<br><br>
+			<center>
+			<a href="https://discordapp.com/terms" target="_blank"><img src="https://cdn.discordapp.com/attachments/551000924575760387/579524909819101206/Discord_TOS.png"<a>
+			<br><br>
+			<a href="https://discordapp.com/guidelines" target="_blank"><img src="https://cdn.discordapp.com/attachments/551000924575760387/579524908275597345/Discord_Guidelines.png"<a>
+			</center>
+			</dd>
+	</dl>
+	<br>
+	<center><div class="opti">
+		<a href="#option">Back to Options</a>
+	</center></div>
+</div>
+
+<br><br>
+<br><br>
+
+<div class="roles" id="o2">
+	<center><h1>Roles</h1></center>
+	<p>Every member in this server has a role or many roles. It can be selectable or not. If you are not sure on how the roles that the server has work,
+	   don't worry. Below this is a list of all roles available in the server with a description showing its function. Take your time to read all roles
+	   below.</p>
+	<dl>
+		<dt><b><u>Management Roles</u></b></dt><br>
+			<dd><b>Owner <span style="color:#ff604f;">(NOT SELECTABLE)</span> => </b>[60hz] Earthum#5627 is the owner of this server.</dd><br>
+			<dd><b>Moderator <span style="color:#ff604f;">(NOT SELECTABLE)</span> => </b>These people have a higher role but lower than the owner. The current moderators are:</dd>
+			<dd><ul>
+				<li>Ballon#3169</li>
+				<li>FGHJapan#4934</li>
+				<li>Jolly Jack#9216</li>
+				<li>мєℓєє∂αмαgє#0724</li>
+			</ul></dd>
+			<dd><b>Bots <span style="color:#ff604f;">(NOT SELECTABLE)</span> => </b>These are bots that were added by the owner to this server.</dd><br>
+		<dt><b><u>Notify Roles</u></b></dt><br>
+			<dd><b>Subscribed <span style="color:#419b31;">(SELECTABLE)</span> => </b>You will get notifications about my new videos.</dd><br>
+			<dd><b>Voting <span style="color:#419b31;">(SELECTABLE)</span> => </b>You will get notifications about polls in this server</dd><br>
+			<dd><b>Announce <span style="color:#419b31;">(SELECTABLE)</span> => </b>You will get notifications about announcements regarding to IRL, Geometry Dash, this discord server, etc.</dd><br>
+		<dt><b><u>General Roles</u></b></dt><br>
+			<dd><b>Youtuber <span style="color:#ff604f;">(NOT SELECTABLE)</span> => </b>These are people who have 500+ subscribers on their YouTube channel.</dd><br>
+			<dd><b>Representative <span style="color:#ecef4a;">(ALREADY RECEIVED)</span> => </b>These are the members of this server.</dd><br>
+		<dt><b><u>Geometry Dash Roles</u></b></dt><br>
+			<dd><b>Player <span style="color:#419b31;">(SELECTABLE)</span> => </b>These are GD players. There are GD players who grind for:</dd>
+			<dd><ul>
+				<li>Star Grinder</li>
+				<li>Demon Grinder</li>
+				<li>Coin Grinder</li>
+				<li>Diamond Grinder</li>
+			</ul></dd>
+			<dd><b>Creator <span style="color:#419b31;">(SELECTABLE)</span> => </b>These are GD creators. There are GD creators who uses different styles:</dd>
+			<dd><ul>
+				<li>Tech Creator</li>
+				<li>Effect Creator</li>
+				<li>Modern Creator</li>
+				<li>Art Creator</li>
+				<li>Core Creator</li>
+			</ul></dd>
+	</dl>
+	<br>
+	<center><div class="opti">
+		<a href="#option">Back to Options</a>
+	</center></div>
+</div>
+
+<br><br>
+<br><br>
+
+<div class="warns" id="o3">
+	<center><h1>Warning Regulations</h1></center>
+	<p>Every warning lasts for 7 days. Let's say you broke a rule on March 19. Your warning will be removed on March 25.
+	   If you are a staff in the server, you will get a higher chance of being demoted. Be sure to be a good member in this server.</p>
+	</ul>
+	<dl>
+		<dt><b>Warning 1</b></dt>
+		<dd>If you break a rule for the first time, you will be given the @Warning 1 role.</dd>
+		<br>
+		<dt><b>Warning 2</b></dt>
+		<dd>If you break a rule for the second time (on Warning 1), you will be given the @Warning 2 role. In addition, you will get muted for 10 minutes.</dd>
+		<br>
+		<dt><b>Ban</b></dt>
+		<dd>If you break a rule for the third time (on Warning 2), you will be permanently banned from the server.</dd>
+	</dl>
+	<br>
+	<center><div class="opti">
+		<a href="#option">Back to Options</a>
+	</center></div>
+</div>
+
+<br><br>
+<br><br>
+
+<div class="faq" id="o4">
+	<center><h1>FAQ (Frequently Asked Questions)</h1></center>
+	<dl>
+		<dt><b>Q: How should I know the bot prefixes for each bots?</b></dt>
+		<dd>Beside every bot's name, there is already the assigned prefix for them.</dd>
+		<br>
+		<dt><b>Q: Where do you live?</b></dt>
+		<dd>I live in the Philippines.</dd>
+		<br>
+		<dt><b>Q: When is your birthday?</b></dt>
+		<dd>My birthday is on July 5, 2004.<dd>
+		<br>
+		<dt><b>Q: Will you do a face reveal?</b></dt>
+		<dd>I will not reveal my face, and it will not happen.<dd>
+		<br>
+		<dt><b>Q: Are you a player or a creator?</b></dt>
+		<dd>I am both a player and a creator. I am grinding for demons, stars, coins, diamonds, and orbs. I like to use modern-styled
+			levels. Sometimes I try to use other styles rather than modern style. My levels that are made might be mostly insane difficulty
+			or demon difficulty.<dd>
+		<br>
+		<dt><b>Q: Why do you use modernistic style?</b></dt>
+		<dd>It is because I can get used to it easily.<dd>
+		<br>
+		<dt><b>Q: When did you start to play Geometry Dash?</b></dt>
+		<dd>I started playing Geometry Dash on December 2017. I am still waiting for 2.2 somehow.<dd>
+		<br>
+		<dt><b>Q: Who are your favorite creators?</b></dt>
+		<dd>I have so many favorite creators, but I will just name some of them. These creators are Rafer, ViPriN, MrKoolTrix, Serponge,
+		    Spuddles, RikLymback, Xender Game, Partition, DanZmeN, JonathanGD, and SamMaxx.<dd>
+		<br>
+		<dt><b>Q: Who are your favorite players?</b></dt>
+		<dd>My favorite players are Technical49, TheRealDorami, Golden, Hilo, Knobbelboy, GuitarHeroStyles, SrGuillester, Nexus, BoldStep, and KrmaL.<dd>
+		<br>
+		<dt><b>Q: Who are your favorite Geometry Dash music creators?</b></dt>
+		<dd>My favorite GD music creators are MrKoolTrix, Xtrullor, Boom Kitty, ColBreakz, F-777, Hinkik, Acid-Notation, and Creo.<dd>
+	</dl>
+	<br>
+	<center><div class="opti">
+		<a href="#option">Back to Options</a>
+	</center></div>
+</div>
+
+<br><br>
+<br><br>
+
+<div class="links" id="o5">
+	<center><h1>Social Links</h1></center>
+	<p>Here are my social links and in-game names:<p>
+	<p>Links:</p>
+	<div>
+		<a href="https://www.twitch.tv/earthiumgd" target="_blank"><img src="https://cdn.discordapp.com/attachments/551000924575760387/579120971395498007/Twitch.png" style="width:100px;height:100px;padding:0 0 0 16%;"></a>
+		<a href="https://twitter.com/earthumgd" target="_blank"><img src="https://cdn.discordapp.com/attachments/551000924575760387/579120228185931786/Twitter.png" style="width:100px;height:100px;padding:0 0 0 19%;"></a>
+		<a href="https://www.youtube.com/channel/UC_ME0jLZq95r2B9dBGitohQ" target="_blank"><img src="https://cdn.discordapp.com/attachments/551000924575760387/579119833317244938/YouTube.png" style="width:100px;height:100px;padding:0 0 0 19%;"></a>
+	</div>
+	<div>
+		<p style="padding:0 0 0 18%;">Twitch<span style="padding:0 0 0 28%;"></span>Twitter<span style="padding:0 0 0 27%;">YouTube</span></p>
+	</div>
+	<br>
+	<center><div class="opti">
+		<a href="#option">Back to Options</a>
+	</center></div>
+</div>
+
+<br><br>
+<br><br>
+
+<div class="more_info" id="o7">
+<center>
+	<h1>More Info About Discord Server and Website</h1>
+	<p><b>Discord Invite Link:</b> <a href="https://discord.gg/uKq3Up8" target="_blank">https://discord.gg/uKq3Up8</a>
+	<p><b>Discord Tag:</b> [60hz] Earthum#5627</p>
+	<p><b>Website Creator:</b> [60hz] Earthum#5627</p>
+	<p><b>Website Helper:</b> Jolly Jack#9216</p>
+	<center><div class="opti">
+		<a href="#option">Back to Options</a>
+	</center></div>
+</center>
+</div>
+
+<br><br>
+<br><br>
+
+</body>
+</html>
